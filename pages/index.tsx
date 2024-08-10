@@ -3,6 +3,7 @@ import NavBar from "@/components/NavBar";
 import Main from "@/components/Main";
 import Vehicles from "@/components/Vehicles";
 import Contact from "@/components/Contact";
+import Sell from "@/components/Sell";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,6 +13,7 @@ export default function Home() {
     <NavBar />
     <Main />
     <Vehicles />
+    <Sell />
     <Contact />
     </>
   );

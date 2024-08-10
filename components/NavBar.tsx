@@ -63,13 +63,16 @@ const NavBar: React.FC = () => {
                     </div>
 
                     <nav className={`lg:flex text-black font-semibold ${isOpen ? 'block' : 'hidden'} custom-height text-center bg-[#CCA686] flex flex-col gap-10 items-center justify-center  absolute left-0 z-10 top-[90px] uppercase w-full lg:flex lg:h-[39px] lg:flex-row lg:static lg:w-auto lg:bg-transparent`}>
-
                         <ScrollLink duration={500} offset={-92} href='main' to='main' smooth={true} onClick={closeMenu}>
                             <span className={`block  py-2 cursor-pointer   ${activeSection === 'main' ? 'border-b-[2px] lg:border-black' : ''}`}>Início</span>
                         </ScrollLink>
 
                         <ScrollLink duration={500} offset={-80} to='vehicles' smooth={true} onClick={closeMenu}>
                             <span className={`block  py-2 cursor-pointer   ${activeSection === 'vehicles' ? 'border-b-[2px] lg:border-black' : ''}`}>Veículos</span>
+                        </ScrollLink>
+
+                        <ScrollLink duration={500} offset={-80} to='sell' smooth={true} onClick={closeMenu}>
+                            <span className={`block  py-2 cursor-pointer   ${activeSection === 'sell' ? 'border-b-[2px] lg:border-black' : ''}`}>Venda seu carro</span>
                         </ScrollLink>
 
                         <ScrollLink duration={500} offset={-80} to='services' smooth={true} onClick={closeMenu}>
@@ -79,9 +82,8 @@ const NavBar: React.FC = () => {
                         <Link href='/about' onClick={closeMenu}>
                             <span className={`block  py-2 cursor-pointer   ${activeSection === '/about' ? 'border-b-[2px] lg:border-black' : ''}`}>Sobre nós</span>
                         </Link>
-
-
                     </nav>
+                    
                 </div>
             </header>
         </>
