@@ -10,9 +10,9 @@ const Contact = () => {
                 <h1 className="text-center text-5xl font-Oswald uppercase text-white">Entre em Contato</h1>
                 <div className="border-b-4 mx-auto mt-3 border-red-700 w-[300px]" />
 
-                <article className=" bg-transparent flex flex-col items-center mx-auto  py-4 max-w-[1460px] mt-10 lg:bg-white lg:rounded-lg lg:flex-row">
-                    <div className="flex flex-col-reverse items-center w-full justify-center gap-1 lg:flex-row ">
-                        <form className="w-full  bg-gray-900 flex flex-col justify-center p-8 h-[600px] max-w-[700px] lg:w-1/2 lg:rounded-lg" action="">
+                <article className=" bg-transparent flex flex-col items-center mx-auto py-4 px-4 max-w-[1420px] mt-10 lg:bg-white lg:rounded-lg lg:flex-row">
+                    <div className="flex flex-col-reverse items-center w-full justify-center gap-2 lg:flex-row ">
+                        <form className="w-full  bg-[#1F232C] flex flex-col justify-center p-8 h-[600px] max-w-[700px] lg:w-1/2 lg:rounded-lg" action="">
                             <div className="flex flex-col gap-4">
                                 <div className="flex flex-col lg:flex-row gap-4">
                                     <input placeholder="Nome completo*" className="outline-none px-1 py-2 text-white bg-transparent border-b-2 lg:w-1/2" type="text" />
@@ -28,7 +28,6 @@ const Contact = () => {
                         </form>
 
                         <div className="flex justify-end items-center  lg:w-1/2 lg:flex-row ">
-                            {/* <img src="/bgform.jpg" alt="Imagem de contato" className="rounded-lg w-full block object-cover h-[600px] max-w-[700px]" /> */}
                             <div className="bgForm flex flex-col items-center justify-center gap-4 rounded-lg w-full object-cover h-[600px] max-w-[700px]">
                                 <h1 className="text-center text-white uppercase">Ficou com alguma dúvida?</h1>
                                 <h1 className="text-center text-5xl font-Oswald uppercase text-white">Fale conosco</h1>
