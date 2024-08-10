@@ -15,8 +15,8 @@ const Main = () => {
             <div className='maxWidth flex flex-col items-center justify-center h-full'>
 
                 <article>
-                    <h1 className='font-Oswald text-3xl text-center uppercase lg:text-7xl'>Seu Lugar para Comprar e Vender</h1>
-                    <h1 className='font-Oswald text-3xl text-center uppercase mt-4 lg:text-7xl'>Veículos com Tranquilidade</h1>
+                    <h1 className='font-Oswald text-3xl text-center text-white uppercase lg:text-7xl'>Seu Lugar para Comprar e Vender</h1>
+                    <h1 className='font-Oswald text-3xl text-center  text-white uppercase mt-4 lg:text-7xl'>Veículos com Tranquilidade</h1>
                     <div className='text-center mt-10'>
                         <a className='bg-black rounded py-2 px-4 uppercase lg:text-xl lg:px-6' href="">Fale Conosco</a>
                     </div>

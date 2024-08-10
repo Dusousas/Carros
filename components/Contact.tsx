@@ -31,11 +31,11 @@ const Contact = () => {
                             <div className="bgForm flex flex-col items-center justify-center gap-4 rounded-lg w-full object-cover h-[600px] max-w-[700px]">
                                 <h1 className="text-center text-white uppercase">Ficou com alguma dúvida?</h1>
                                 <h1 className="text-center text-5xl font-Oswald uppercase text-white">Fale conosco</h1>
-                                <p className="text-center">Não perca mais tempo e entre em contato com nossa equipe de especialistas. Teremos o mais prazer em ajudar você.</p>
+                                <p className="text-center text-white ">Não perca mais tempo e entre em contato com nossa equipe de especialistas. Teremos o mais prazer em ajudar você.</p>
                                 <article className="flex items-center justify-center  gap-4">
-                                    <a href="#" aria-label="Instagram"><FontAwesomeIcon className="text-GreenS text-3xl mb-2" icon={faSquareInstagram} /></a>
-                                    <a href="#" aria-label="Whatsapp"><FontAwesomeIcon className="text-GreenS text-3xl mb-2" icon={faSquareWhatsapp} /></a>
-                                    <a href="#" aria-label="Facebook"><FontAwesomeIcon className="text-GreenS text-3xl mb-2" icon={faSquareFacebook} /></a>
+                                    <a href="#" aria-label="Instagram"><FontAwesomeIcon className="text-GreenS text-3xl mb-2 text-white " icon={faSquareInstagram} /></a>
+                                    <a href="#" aria-label="Whatsapp"><FontAwesomeIcon className="text-GreenS text-3xl mb-2 text-white " icon={faSquareWhatsapp} /></a>
+                                    <a href="#" aria-label="Facebook"><FontAwesomeIcon className="text-GreenS text-3xl mb-2 text-white " icon={faSquareFacebook} /></a>
                                 </article>
                             </div>
                         </div>
