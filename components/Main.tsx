@@ -22,7 +22,7 @@ const Main = () => {
                     </div>
                 </article>
 
-                <article className="text-white relative top-[240px] lg:top-[260px]">
+                <article className="text-white relative top-[160px] lg:top-[260px]">
                     <motion.img
                         className="w-[100px]"
                         src="Seta.png"

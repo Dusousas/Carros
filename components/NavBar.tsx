@@ -75,8 +75,8 @@ const NavBar: React.FC = () => {
                             <span className={`block  py-2 cursor-pointer   ${activeSection === 'sell' ? 'border-b-[2px] lg:border-black' : ''}`}>Venda seu carro</span>
                         </ScrollLink>
 
-                        <ScrollLink duration={500} offset={-80} to='services' smooth={true} onClick={closeMenu}>
-                            <span className={`block  py-2 cursor-pointer   ${activeSection === 'services' ? 'border-b-[2px] lg:border-black' : ''}`}>Contato</span>
+                        <ScrollLink duration={500} offset={-80} to='contact' smooth={true} onClick={closeMenu}>
+                            <span className={`block  py-2 cursor-pointer   ${activeSection === 'contact' ? 'border-b-[2px] lg:border-black' : ''}`}>Contato</span>
                         </ScrollLink>
 
                         <Link href='/about' onClick={closeMenu}>

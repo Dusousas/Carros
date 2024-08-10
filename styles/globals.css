@@ -50,6 +50,27 @@ body {
   background-size: cover;
 }
 
+.bgContact{
+  background-image: url("../public/bgContact.jpg");
+
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.bgForm{
+  background-image: url("../public/bgForm.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
 .gradient{
   background: linear-gradient(to top, rgba(255, 255, 255, 1) 80%, rgb(232, 232, 232) 100%)
 }
+
+.blur {
+  backdrop-filter: blur(5px);
+}
+
+
